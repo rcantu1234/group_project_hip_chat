@@ -5,6 +5,8 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+
+    @users = User.order('created_at DESC')
   end
 
   # GET /users/1
