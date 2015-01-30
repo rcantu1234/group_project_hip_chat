@@ -15,11 +15,11 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function () {
-  $("#new_todo").on("ajax:success", function(e, data, status, xhr) {
-    $("#new-todo").append(xhr.responseText)
-  }).on("ajax:error", function (e, xhr, status, error) {
-    $("#new-todo").append("<p>ERROR</p>")
-  });
-});
+// $(document).ready(function () {
+//   $("#new_todo").on("ajax:success", function(e, data, status, xhr) {
+//     $("#new-todo").append(xhr.responseText)
+//   }).on("ajax:error", function (e, xhr, status, error) {
+//     $("#new-todo").append("<p>ERROR</p>")
+//   });
+// });
 
