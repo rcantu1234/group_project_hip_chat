@@ -4,6 +4,5 @@ class Message < ActiveRecord::Base
     @new_message = @new_message.gsub("fuck", "****")
     @new_message = @new_message.gsub("shit", "****")
     @new_message = @new_message.gsub("damn", "****")
-
   end
 end
