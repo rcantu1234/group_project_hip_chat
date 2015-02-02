@@ -69,7 +69,6 @@ class MessagesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def message_params
-      :message_time = :created_at
       params.require(:message).permit(:message, :user_name, :message_date, :message_time)
     end
 end
