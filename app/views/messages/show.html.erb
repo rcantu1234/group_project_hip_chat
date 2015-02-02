@@ -10,20 +10,5 @@
   <%= @message.user_name %>
 </p>
 
-<p>
-  <string>Date:</string>
-  <%= @message.message_date %>
-</p>
-
-<p>
-  <string>Time:</string>
-  <%= @message.message_time %>
-</p>
-
-
-
-
-
-
 <%= link_to 'Edit', edit_message_path(@message) %> |
 <%= link_to 'Back', messages_path %>
